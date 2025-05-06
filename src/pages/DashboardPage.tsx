@@ -5,7 +5,7 @@ import { useAttempt } from '../context/AttemptContext';
 import { useAuth } from '../context/AuthContext';
 import { Link } from 'react-router-dom';
 import { Quiz } from '../context/QuizContext';
-import { QuizAttempt } from '../context/QuizContext';
+import { QuizAttempt } from '../context/AttemptContext';
 import {
   BarChart,
   Bar,

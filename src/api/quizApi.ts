@@ -2,7 +2,7 @@ import axios from 'axios';
 import { Quiz } from '../context/QuizContext';
 
 // Change si ton backend est ailleurs
-const API_URL = 'http://localhost:8080/api/quizzes';
+const API_URL = 'http://localhost:8081/api/quizzes';
 
 export const createQuizApi = async (quizData: Omit<Quiz, 'id'>) => {
   const response = await axios.post(API_URL, quizData);

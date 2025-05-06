@@ -14,6 +14,9 @@ import { QuizProvider } from './context/QuizContext';
 import { AuthProvider } from './context/AuthContext';
 import { AttemptProvider } from './context/AttemptContext';
 
+
+
+
 function App() {
   return (
     <Router>
